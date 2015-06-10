@@ -1,0 +1,12 @@
+[
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/04/27_dlMetro-release-1.0.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/05_websu_release_0.1.0.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/07_openlayers_dlMetro.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/15_noscrollbar_dlmetro.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/20_surfway_3examples.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/25_tython_xsd.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/26_pgbytea2file.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/28_surfway_gantt.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_custom_css_surfway.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_gist_psql_chown_multiple.jpg","url":"http://www.example.org","text":"aaa","author":"me"}
+]

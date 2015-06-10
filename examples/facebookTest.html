@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../core/css/animate.css">
+        <link rel="stylesheet" href="../core/css/dlCarousel.css">
+    </head>
+    <body>
+        <div id="mainCarousel"></div>
+        <script src="../core/js/http.js"></script>
+        <script src="../core/js/dlCarousel.js"></script>
+        <script>
+            dlCarousel.setCarouselNumItems(3);
+            dlCarousel.build("mainCarousel");
+            dlCarousel.setCarouselUrl("/dlCarousel/core/php/facebookPosts.php");
+            dlCarousel.start();
+            dlCarousel.setCarouselTimeout(5000);
+            dlCarousel.setCssAnimation("animated fadeInRight","fg");
+            dlCarousel.setCssAnimation("animated slideOutLeft","bg");
+            //dlCarousel.setCssAnimation("animated slideOutUp","bg",3);
+            //dlCarousel.setCssAnimation("animated slideInDown","fg",2);
+            //dlCarousel.setCssAnimation("animated slideOutLeft","bg",0);
+        </script>
+    </body>
+</html>
