@@ -1,21 +1,29 @@
 <html>
     <head>
-        <link rel="stylesheet" href="../core/css/animate.css">
+        <link rel="stylesheet" href="../core/css/magic.css">
         <link rel="stylesheet" href="../core/css/dlCarousel.css">
+        <link rel="stylesheet" href="example.css">
     </head>
     <body>
         <div id="mainCarousel"></div>
         <script src="../core/js/http.js"></script>
         <script src="../core/js/dlCarousel.js"></script>
         <script>
-            dlCarousel.setCarouselNumItems(4);
+            dlCarousel.setCarouselNumItems(5);
             dlCarousel.build("mainCarousel");
             dlCarousel.setCarouselUrl("/dlCarousel/core/php/jsonPosts.php");
             dlCarousel.start();
-            dlCarousel.setCarouselTimeout(5000);
-            dlCarousel.setCssAnimation("animated fadeInRight","fg");
-            dlCarousel.setCssAnimation("animated slideOutLeft","bg");
-
+            dlCarousel.setCarouselTimeout(10000);
+            
+            // book effect
+            //dlCarousel.setCssAnimation("magictime perspectiveRightRetourn","fg");
+            //dlCarousel.setCssAnimation("magictime perspectiveLeft","bg");
+            
+            // slider left
+            dlCarousel.setCssAnimation("magictime slideRightRetourn","fg");
+            dlCarousel.setCssAnimation("magictime slideLeft","bg");
+            
+            
         </script>
     </body>
 </html>

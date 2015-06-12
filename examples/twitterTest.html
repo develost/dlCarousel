@@ -11,11 +11,12 @@
         <script>
             dlCarousel.setCarouselNumItems(3);
             dlCarousel.build("mainCarousel");
-            dlCarousel.setCarouselUrl("/dlCarousel/core/php/facebookPosts.php");
-            dlCarousel.start();
+            dlCarousel.setCarouselUrl("/dlCarousel/core/php/twitterPosts.php");
+            //dlCarousel.setCarouselUrl("/dlCarousel/core/php/jsonPosts.php");
             dlCarousel.setCarouselTimeout(5000);
             dlCarousel.setCssAnimation("animated fadeInRight","fg");
             dlCarousel.setCssAnimation("animated slideOutLeft","bg");
+            dlCarousel.start();
             //dlCarousel.setCssAnimation("animated slideOutUp","bg",3);
             //dlCarousel.setCssAnimation("animated slideInDown","fg",2);
             //dlCarousel.setCssAnimation("animated slideOutLeft","bg",0);

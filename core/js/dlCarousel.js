@@ -52,9 +52,6 @@ var dlCarousel = (function() {
     };
     
     var doRequestStep = function(){
-        //var cTime = new Date().getTime();
-        //var carouselUrl = "/dlCarousel/core/php/facebookPosts.php?nItems="+carouselMaxItems+"type=fb&t=" + cTime;
-        //var carouselUrl = "/dlCarousel/core/php/facebookPosts.php";
         if (carouselUrl == ""){return;}
         var request = new Http.Get(carouselUrl, true);
         request.start().then(function(response) {
@@ -88,13 +85,6 @@ var dlCarousel = (function() {
         while (domElement.firstChild) domElement.removeChild(domElement.firstChild);
         var newA = document.createElement("a");
         newA.href = postsData[stepIndex].url;
-        /*
-        var newImage = new Image();
-        newImage.src = postsData[stepIndex].image.src;
-        newImage.alt = postsData[stepIndex].image.alt;
-        newImage.className = cssClasses;
-        newA.appendChild(newImage);
-        */
         
         var newImageDiv = document.createElement("div");
         newImageDiv.style.backgroundImage = "url('" + postsData[stepIndex].image.src + "')";
@@ -106,11 +96,11 @@ var dlCarousel = (function() {
         var newPostDiv = document.createElement("p");
         var newText = document.createTextNode(postsData[stepIndex].text);
         newPostDiv.appendChild(newText);
-        newPostDiv.className = cssClasses;
+        newPostDiv.className = "text " + cssClasses;
         var newPostAuthor = document.createElement("p");
         var newText2 = document.createTextNode(postsData[stepIndex].author);
         newPostAuthor.appendChild(newText2);
-        newPostAuthor.className = cssClasses;
+        newPostAuthor.className = "author " + cssClasses;
         newA.appendChild(newPostDiv);
         newA.appendChild(newPostAuthor);
         domElement.appendChild(newA);

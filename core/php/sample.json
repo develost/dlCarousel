@@ -1,12 +1,12 @@
 [
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/04/27_dlMetro-release-1.0.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/05_websu_release_0.1.0.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/07_openlayers_dlMetro.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/15_noscrollbar_dlmetro.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/20_surfway_3examples.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/25_tython_xsd.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/26_pgbytea2file.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/28_surfway_gantt.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_custom_css_surfway.jpg","url":"http://www.example.org","text":"aaa","author":"me"},
-    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_gist_psql_chown_multiple.jpg","url":"http://www.example.org","text":"aaa","author":"me"}
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_gist_psql_chown_multiple.jpg","url":"http://www.example.org","text":"#Bulk #change table #owner in multiple #schema #postgresql","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_custom_css_surfway.jpg","url":"http://www.example.org","text":"#Xml #generated #webapp and your #custom #css in #surfway !","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/28_surfway_gantt.jpg","url":"http://www.example.org","text":"Have you tried #gantt visualization in #surfway?","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/26_pgbytea2file.jpg","url":"http://www.example.org","text":"Extract from #postgres #bytea field and store data in a binary #file","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/25_tython_xsd.jpg","url":"http://www.example.org","text":"#tython xsd v 1.0 released! Check your config.xml before generating","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/20_surfway_3examples.jpg","url":"http://www.example.org","text":"1 #webapp can be done in minutes using #surfway","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/15_noscrollbar_dlmetro.jpg","url":"http://www.example.org","text":"remove any #scrollbar, keep page scroll, already done in #dlMetro","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/07_openlayers_dlMetro.jpg","url":"http://www.example.org","text":"#openlayers and #dlMetro easy to embed maps into a #metroui","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/05_websu_release_0.1.0.jpg","url":"http://www.example.org","text":"#websu released: update your website easily, support cryptography","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/04/27_dlMetro-release-1.0.jpg","url":"http://www.example.org","text":"First version of #dlMetro released","author":"@develost_com"}
 ]
