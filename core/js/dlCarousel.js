@@ -8,8 +8,8 @@ var dlCarousel = (function() {
     var carouselMaxItems         = 20;
     var carouselTimeout          = 3000;
     var carouselUrl              = "";
-    var dlFgElementsCss          = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];   // max 30
-    var dlBgElementsCss          = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];   // max 30
+    var dlFgElementsCss          = [];
+    var dlBgElementsCss          = [];
     //---
     var id                       = '';
     var postsData               = [];

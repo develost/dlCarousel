@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../core/css/animate.css">
+        <link rel="stylesheet" href="../core/css/dlCarousel.css">
+        <link rel="stylesheet" href="example.css">
+    </head>
+    <body>
+        <div id="mainCarousel"></div>
+        <script src="../core/js/http.js"></script>
+        <script src="../core/js/dlCarousel.js"></script>
+        <script>
+            dlCarousel.setCarouselNumItems(3);
+            dlCarousel.build("mainCarousel");
+            dlCarousel.setCarouselUrl("/dlCarousel/core/php/twitterPosts.php?s=at&v=develost_com");
+            //dlCarousel.setCarouselUrl("/dlCarousel/core/php/jsonPosts.php");
+            dlCarousel.setCarouselTimeout(5000);
+            dlCarousel.setCssAnimation("animated slideInRight","fg");
+            dlCarousel.setCssAnimation("animated slideOutLeft","bg");
+            dlCarousel.start();
+            //dlCarousel.setCssAnimation("animated slideOutUp","bg",3);
+            //dlCarousel.setCssAnimation("animated slideInDown","fg",2);
+            //dlCarousel.setCssAnimation("animated slideOutLeft","bg",0);
+        </script>
+    </body>
+</html>
